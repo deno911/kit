@@ -18,6 +18,6 @@ export function prepublish(version: string) {
  * or to log a success message to the standard output (`console`).
  * The hook is invoked with the upgraded version for its only argument.
  */
-export function postpublish (version: string) {
+export function postpublish(version: string) {
   console.log("✔️ successfully published version %s!", version);
 }
